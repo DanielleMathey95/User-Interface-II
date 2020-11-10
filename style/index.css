@@ -184,7 +184,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
   margin-bottom:-7%;
 }
@@ -212,7 +212,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
   margin-bottom:-5%;
 }
@@ -275,3 +275,68 @@ footer a:hover {
 
 /* MOBILE CSS STARTS HERE */
 
+@media(max-width:800px) {
+  /* header styles */
+
+  header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 2%;
+  }
+
+  .name-header {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+  }
+
+  nav {
+    width: 80%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  nav a {
+    width: 30%;
+  }
+
+  /* name and projects portion */
+
+  .name-large {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 80%;
+    height: 40vh;
+    margin-top: 5%;
+  }
+
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .projects a{
+    width: 60%;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+
+}
