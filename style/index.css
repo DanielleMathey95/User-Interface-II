@@ -275,6 +275,7 @@ footer a:hover {
 
 /* MOBILE CSS STARTS HERE */
 
+/* MEDIA QUERY 800PX START */
 @media(max-width:800px) {
   /* header styles */
 
@@ -335,8 +336,52 @@ footer a:hover {
     width: 60%;
   }
 
-  .footer {
-    height: 20vh;
+  footer a {
+    width: 30%;
   }
 
 }
+
+/* END OF MEDIA QUERY 800PX */
+
+/* MEDIA QUERY 500PX START */
+
+@media(max-width: 500px) {
+   /* header media query  */
+  header {
+    margin-top: 3%;
+}
+
+  .name-header {
+    width: 80%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav a {
+    width: 30%;
+  }
+
+  /* name and projects */
+
+  .name-large {
+    height: 30vh;
+  }
+
+  .name {
+    width: 70%;
+  }
+
+  .projects a {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  footer a {
+    width: 30%;
+  }
+}
+
+/* MEDIA QUERIES 500PX END */
